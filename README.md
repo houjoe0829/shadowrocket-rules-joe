@@ -21,7 +21,7 @@ Shadowrocket 使用方法可以查看： https://houjoe.me/posts/shadowrocket-gu
     *   点击右上角的 "Raw" 按钮。
     *   复制此时浏览器地址栏中的链接地址。
     *   **或者**，你也可以直接复制以下链接：
-        `https://f7909a07.shadowrocket-rules-joe.pages.dev/shadowrocket-rules.conf`
+        `https://shadowrocket-rules-joe.pages.dev/shadowrocket-rules.conf`
 
 2.  **在 Shadowrocket 中添加配置**
 

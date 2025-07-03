@@ -1,4 +1,5 @@
-/shadowrocket-rules.conf
-  ETag: "{{file_hash}}"
-  Cache-Control: public, max-age=300, must-revalidate
-  Content-Type: text/plain; charset=utf-8 
+/*.conf
+  Last-Modified: {{now}}
+  Cache-Control: no-cache, must-revalidate
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: * 
