@@ -24,7 +24,7 @@ Shadowrocket 使用方法可以查看： https://houjoe.me/posts/shadowrocket-gu
 - **优势**：规则覆盖全面，各种 App 都有专门优化
 
 ### ⚡ **极简版（推荐进阶用户）**
-- **链接**：`https://shadowrocket-rules-joe.pages.dev/shadowrocket-rules-simplified.conf`
+- **链接**：`https://raw.githubusercontent.com/houjoe0829/shadowrocket-rules-joe/refs/heads/main/shadowrocket-rules-simplified.conf`
 - **特点**：只保留 3 个核心规则集，主要依靠自定义规则
 - **适合**：追求简洁高效，不需要过多外部依赖的用户
 - **优势**：
@@ -38,7 +38,7 @@ Shadowrocket 使用方法可以查看： https://houjoe.me/posts/shadowrocket-gu
 1.  **获取配置链接**
 
     *   **完整版**：`https://shadowrocket-rules-joe.pages.dev/shadowrocket-rules.conf`
-    *   **极简版**：`https://shadowrocket-rules-joe.pages.dev/shadowrocket-rules-simplified.conf`
+    *   **极简版**：`https://raw.githubusercontent.com/houjoe0829/shadowrocket-rules-joe/refs/heads/main/shadowrocket-rules-simplified.conf`
     *   选择其中一个版本复制链接即可
 
 2.  **在 Shadowrocket 中添加配置**
