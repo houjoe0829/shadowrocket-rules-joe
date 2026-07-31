@@ -82,8 +82,7 @@ Shadowrocket 使用方法可以查看： https://houjoe.me/posts/shadowrocket-gu
 | 策略组 | 默认节点 | 说明 |
 |--------|----------|------|
 | AI 服务 | 美国节点 | OpenAI、Claude、Gemini 等 AI 工具 |
-| Notion 服务 | 香港节点 | Notion 全系域名，独立分组方便单独切换 |
-| Typeless | 日本节点 | Typeless 写作工具，独立分组 |
+| Typeless | 新加坡节点 | Typeless 写作工具，独立分组 |
 | 海外流媒体 | 自选 | Netflix、Disney+、HBO 等 |
 | YouTube | 香港节点 | YouTube 及视频 CDN |
 | TikTok | 自选 | TikTok 海外版 |
@@ -99,6 +98,8 @@ Shadowrocket 使用方法可以查看： https://houjoe.me/posts/shadowrocket-gu
 
 - **自动排除假节点**：过滤机场常见的「套餐到期、到期时间、剩余流量、expire、官网、官方、重置」等非实际节点条目
 - **繁简体双覆盖**：支持繁体与简体节点名称（如臺灣 / 台湾、東京 / 东京、獅城 / 狮城等），避免漏匹配
+- **地区互斥**：每个地区分组都排除其他地区的名称与代码，避免中转节点被误选。例如名为「美国 03 | 新加坡中转」的节点不会被算作美国节点
+- **不使用裸小写代码**：英文关键词统一用 `(?i)` 做大小写不敏感匹配，不再直接匹配 `us`、`jp`、`kr`、`sg` 等小写子串，避免 `Australia`、`Russia` 等节点名被误判
 
 ## ⚠️ 使用注意
 
